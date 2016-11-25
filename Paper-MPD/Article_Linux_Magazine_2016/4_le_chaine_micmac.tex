@@ -1,0 +1,131 @@
+\section{La chaîne MicMac}
+\subsection{Une brève histoire de MicMac}
+{\tt MicMac} est une suite logicielle de traitement photogrammétrique libre et gratuite. Depuis 2003, le logiciel est développé à l'{\tt IGN}\footnote{Institut National de l'Information Géographique et Forestière} et est actuellement hébergé au sein de l'{\tt ENSG}\footnote{École Nationale des Sciences Géographiques (ENSG-Géomatique)}. Initialement développé pour des besoins de production propre à l'institut, {\tt MicMac} a aujourd'hui fortement évolué profitant du progrès spectaculaire de la photogrammétrie durant la dernière décennie. La nécessité de pouvoir paramétrer les différentes étapes d'un traitement a conduit à développer en 2005 un interfaçage via des structures imbriquée. Le format {\tt XML} a été adopté. En 2007, {\tt MicMac} est déposé en logiciel libre sous la licence {\tt CECILL-B}, adaptation au droit français de la licence {\tt L-GPL}. Jusqu'en 2008, l’appariement dense d'images déjà orientées n'était possible que dans un format interne à l'{\tt IGN}. Le module {\tt APERO} a été ajouté basé sur le noyau {\tt C++} de {\tt MicMac} qui contenait les algorithmes de fonctionnalités photogrammétriques classiques. {\tt APERO} permet aujourd'hui de calculer intégralement la géométrie interne et externe de l’appareil photo et des images acquises suite à une prise de vue. En 2010 l'usage par les utilisateurs de la chaîne de l'interfaçage XML est remplacé par la ligne de commande simplifiée. Bien que le logiciel soit d’abord destiné à des scientifiques qui souhaitent garder un contrôle fin des différents paramètres, les commandes simplifiées offrent une accessibilité et une meilleur diffusion du logiciel au sein d'une communauté plus large.\newline
+
+À partir de 2010, {\tt MicMac} a connu plusieurs évolutions via son implication dans différents projets : {\tt Culture 3D}, {\tt Monumentum}, {\tt TOSCA}, {\tt DIDRO} ainsi que le financement par des industriels de thèses, principalement la {\tt Compagnie Nationale du Rhône} et {\tt Vinci-Construction-Terrassement}. Ces différents financements ont permis entre autres la portabilité de {\tt MicMac} vers d'autres systèmes d'exploitation à savoir {\tt Windows} et {Mac OSX}. La portabilité en calcul GPU de certaines composantes, par exemple : les algorithmes de corrélation multi-images, les algorithmes d'optimisation par programmation dynamique, ...etc. 
+
+
+\subsection{Philosophie \& Organisation de la chaîne}\label{subsec_organisation}
+{\tt MicMac} est un logiciel destiné principalement à des professionnels (chercheurs, architectes, géomètres-topographes, photogrammètres, ...etc) bien que au fil de son évolution il est aujourd'hui accessible à un public plus large. Toutefois, la philosophie du logiciel reste loin de celle d'un logiciel avec IHM\footnote{Interface Homme Machine} fonctionnant en "presse-bouton". De fait, {\tt MicMac} offre à ces utilisateurs l'accès à un nombre important de paramètres qui influent sur chaque traitement au prix d'un certain degré de complexité. De plus, le logiciel offre certaines fonctionnalités souvent absentes dans les solutions logicielles commerciales, par exemple :
+
+\begin{itemize}
+\item la création de résultats intermédiaires dans des formats ouverts offrant un mécanisme d'entrée/sortie de la chaîne à n'importe quelle étape
+\item la création et l'accès à des indicateurs de qualité pour une analyse qualitative des résultats (résidus des compensations, carte de corrélations, ...etc)
+\item la gestion d'un grand nombre de modèles physiques/mathématiques pour décrire la géométrie d'un appareil photo
+\item la gestion de modes d'appariement bidimensionnels utilisés pour le suivi de déformations
+\item la possibilité d'utiliser des images satellites
+\item la possibilité d'utiliser des images argentiques scannées
+\item le traitement de chantiers de très grande taille (jusqu'à plusieurs dizaines de milliers d'images)
+\end{itemize}
+
+L'organisation de {\tt MicMac} se caractérise par le fait que la chaîne se décompose en un nombre important d'outils/modules. L'accès à ces différents outils/modules se fait à travers une commande unique nommée {\tt mm3d}. Cela a pour avantage que certains développements peuvent être factorisé et générer des binaires compactes. Alors que du côté utilisateur, une commande unique est facilement mémorisable et donne ensuite accès aux sous-modules souhaités. Par exemple, taper la commande {\tt mm3d} retourne la liste exhaustive des outils disponibles :
+
+\begin{lstlisting}[language=bash]
+:~$ mm3d
+mm3d : Allowed commands 
+ AllDev		 Force devlopment of all tif/xif file
+ Ann	 		 matches points of interest of two images
+ AperiCloud	Visualization of camera in ply file
+ Apero	 	 Compute external and internal orientations
+ BatchFDC	 Tool for batching a set of commands
+ ...
+\end{lstlisting}
+
+Un mécanisme permet aussi de retrouver un outil à partir d'une partie du nom donné à ce dernier :
+
+\begin{lstlisting}[language=bash]
+:~$ mm3d Ap
+Suggest by Prefix Match
+    AperiCloud
+    Apero
+    ...
+:~$ mm3d asc
+Suggest by Subex Match
+    Bascule
+    CenterBascule
+    ...
+\end{lstlisting}
+
+Les commandes qui permettent d'appeler les outils de {\tt MicMac} sont organisées de la façon suivante : une certain nombre d'arguments optionnels suivis d'arguments optionnels qui portent un nom. Par exemple, pour la syntaxe de l'outil {\tt mm3d OriConvert} qui permet de convertir des orientations externes dans le format XML de {\tt MicMac} :
+\begin{lstlisting}[language=bash]
+:~$ mm3d OriConvert -help
+*****************************
+*  Help for Elise Arg main  *
+*****************************
+Mandatory unnamed args : 
+  * string :: {Format specification}
+  * string :: {Orientation file}
+  * string :: {Targeted orientation}
+Named args : 
+  * [Name=ChSys] string :: {Change coordinate file}
+  * [Name=Calib] string :: {External XML calibration file}
+  * [Name=AddCalib] bool :: {Try to add calibration, def=true}
+  ...
+\end{lstlisting}
+
+\subsection{Installation}
+{\tt MicMac} dispose d'un dépôt {\tt Mercurial}\footnote{\url{https://geoportail.forge.ign.fr/hg/culture3d/}} qui permet aux utilisateurs qui le souhaitent de télécharger et de compiler les sources selon leur envie. Cela a pour avantage d'avoir accès aux dernières fonctionnalités du logiciel et d'être un bêta-testeur de ces dernières. Aussi, des versions compilées sont disponibles sous forme de binaires téléchargeables à l'adresse suivante : \url{http://logiciels.ign.fr/?Telechargement,20}\ . Ces versions compilées sont disponibles pour différents systèmes d'exploitations (Linux/Windows/Mac OSX) ainsi que pour les architectures 32 bits et 64 bits. Ces versions sont réputées stables car testées sur différents jeux de données avant d'être mises à disposition des utilisateurs mais en contrepartie n'offrent pas accès aux dernières évolutions du logiciel.\newline
+\\
+{\tt MicMac} nécessite l'installation préalable de certaines dépendances. Les commandes ci-dessous listent les outils nécessaires au bon fonctionnement du logiciel qui doivent être préalablement installés.
+\begin{lstlisting}[language=bash]
+:~$ sudo apt-get install mercurial make cmake libx11-dev imagemagick exiftool exiv2
+\end{lstlisting}
+~\\
+L'installation de {\tt Mercurial} est recommandée pour la partie gestion des versions et mise à jour de {\tt MicMac}. {\tt Make} est nécessaire pour l’exécution des tâches parallèles. {\tt CMake} pour générer la solution logicielle avant compilation. {\tt libx11-dev} utile aux utilisateurs sous les plates-formes {\tt Linux} et {\tt Mac OSX} afin d'accéder aux interfaces graphiques. {\tt ImageMagick} pour les conversions d'images et finalement {\tt exiftool} et {\tt exiv2} pour la lecture/écriture des méta-données des images.\newline
+\\
+Autre dépendance qui s'avère utile est {\tt Proj4} qui est une librairie permettant la gestion des conversions entre les différents systèmes et projections cartographiques :
+\begin{lstlisting}[language=bash]
+:~$ wget http://download.osgeo.org/proj/proj-4.8.0.tar.gz
+:~$ wget http://download.osgeo.org/proj/proj-datumgrid-1.5.tar.gz
+:~$ tar xzf proj-4.8.0.tar.gz
+:~$ cd proj-4.8.0/nad
+:~$ tar xzf ../../proj-datumgrid-1.5.tar.gz
+:~$ cd ..
+:~$ ./configure
+:~$ make
+:~$ sudo make install
+\end{lstlisting}
+~\\
+À ce stade, le dépôt de {\tt MicMac} peut être cloner afin de le compiler et l'installer sur la machine :
+\begin{lstlisting}[language=bash]
+:~$ hg clone https://culture3d:culture3d@geoportail.forge.ign.fr/hg/culture3d
+:~$ cd culture3d
+:~$ mkdir build
+:~$ cd build
+:~$ cmake ../
+:~$ NBRP=$(cat /proc/cpuinfo | grep processor | wc -l)
+:~$ make install -j$NBRP
+\end{lstlisting}
+~\\
+Une fois l'installation réussie, il est pratique d'ajouter le dossier qui contient les binaires de {\tt MicMac} en variable globale :
+\begin{lstlisting}[language=bash]
+:~$ export PATH=$PATH:/home/UserX/culture3d/bin
+\end{lstlisting}
+~\\
+Finalement, afin de vérifier que la procédure d’installation s'est bien déroulée et que toutes les dépendances sont présentent :
+\begin{lstlisting}[language=bash]
+:~$ mm3d CheckDependencies
+
+mercurial revision : 6625+
+byte order   : little-endian
+address size : 64 bits
+micmac directory : [/home/UserX/culture3d/]
+auxilary tools directory : [/home/UserX/culture3d/binaire-aux/linux/]
+make:  found (/usr/bin/make)
+exiftool:  found (/usr/bin/exiftool)
+exiv2:  found (/usr/bin/exiv2)
+convert:  found (/usr/bin/convert)
+proj:  found (/usr/local/bin/proj)
+cs2cs:  found (/usr/local/bin/cs2cs)
+\end{lstlisting}
+~\\
+En général, pour les versions compilées, il suffit de télécharger l'archive de la dernière version stable disponible au lien ci-dessus et {\tt MicMac} est prêt à être utilisé. Exemple avec la dernière version pour le système {\tt Linux} en date du 02 avril 2015 et qui correspond à la révision {\tt 5348} de {\tt MicMac} :
+
+\begin{lstlisting}[language=bash]
+$ tar zxvf micmac_ubuntu_14.04_64_v5348.tar.gz -C /home/UserX 
+\end{lstlisting}
+
+\subsection{Outils à disposition}
+Les utilisateurs de {\tt MicMac} disposent d'une documentation\footnote{Disponible en : {\tt culture3d/Documentation/DocMicmac.pdf}} conséquente ($\sim$ 400 pages) des outils et possibilités qu'offre le logiciel. Cette documentation décrit la majorité des programmes disponibles et est régulièrement mise à jour\footnote{Dernière version en date du {\tt 28/05/2016}}. Elle contient des exemples de réalisations dans différents contextes qui s’appuient sur des jeux de données accessibles\footnote{Les jeux tests sont téléchargeables en : {\tt hôte=ftp2.ign.fr},{\tt login=micmac\_user},{\tt password=scAEf9MR}} aux utilisateur et détaille les éléments techniques et scientifiques sur lesquels reposent les outils de la chaîne.\newline
+
+{\tt MicMac} dispose d'un forum\footnote{\url{http://forum-micmac.forumprod.com/}} en ligne qui un espace d'entraide entre les utilisateurs de la chaîne. Il permet d'échanger autour des outils, de remonter les éventuels bugs à l'équipe de développement, d'annoncer les nouveautés dans la suite logicielle ainsi que les différents travaux réalisés par les usagers. Récemment, {\tt MicMac} s'est doté d'un wiki\footnote{\url{http://micmac.ensg.eu}} qui est maintenue par le Département d'Imagerie Aérienne et Spatiale de l'ENSG. Cet espace se veut d'être un univers collaboratif autour du logiciel avec notamment une documentation et des tutoriels en ligne. 

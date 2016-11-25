@@ -1,0 +1,100 @@
+\documentclass[a4paper,10pt]{article} %définition du document
+\bibliographystyle{plain} %style de la bibliographie
+\usepackage[utf8]{inputenc} %encodage pour accents en français
+\usepackage{hyperref} %environnement pour les url{}
+\usepackage{color} %utiliser la couleur
+\newcommand{\up}[1]{\textsuperscript{#1}} %pour ajouter des exposants en lettres
+\usepackage{listings} %nvironnement pour mettre les commandes
+%customisation de l'environnement des commandes pour meilleur lisibilité
+\lstset{
+numbers=left,%positionner les nombres à gauche
+tabsize=2, %taille du tableau
+frame=single, %un seul frame
+breaklines=true, %forcer le retour à la ligne quand trop long
+numberstyle=\tiny \bf \color{blue}, %style pour les numéros
+stepnumber=1,
+numbersep=12pt,
+firstnumber=1, %commencer les numéros à 1
+basicstyle=\ttfamily,
+numberfirstline=true, %numéroter la première ligne
+literate={~} {$\sim$}{1} %joli ~ pour faire comme un terminal
+}
+
+
+
+\begin{document}
+
+%%%%% Titre 
+\title{\Large\bf MicMac : un logiciel libre et gratuit pour la photogrammétrie}
+
+%%%%% Partie auteurs
+\author{\begin{tabular}[t]{c@{\extracolsep{6em}}c@{\extracolsep{6em}}c}
+Auteur A${}^{1}$  & Auteur B${}^{1}$ & Auteur C${}^{1}$\\
+mail 1 & mail 2 & mail 3\\
+\end{tabular}
+{}\\
+\\
+${}^1$ Université Paris-Est/IGN/LOEMI/ENSG \\
+${}^2$ Vinci-Construction-Terrassement
+{}\\
+\\
+${}^1$ 6-8 Avenue Blaise Pascal, 77455 Champs-sur-Marne, France \\
+${}^2$ 1, Rue du docteur Charcot, 91421 Morangis, France \\
+}
+
+%%%% Pas de date
+\date{}
+
+%%%% Titre
+\maketitle
+
+%%%%  Pas de numértation sur la page de titre
+\thispagestyle{empty}
+
+%%%% La partie chapeau
+ici la partie chapeau ...
+
+\subsection*{Mots Clés}
+MicMac, ...
+
+\subsection*{Résumé}
+{
+ici le résumé
+}
+
+%%%% Ne pas nuéroter l'introduction
+\section*{Introduction}
+ici l'introduction ...
+
+%%%% Sections
+\include{1_la_photogrammetrie}
+
+%%%%
+\include{2_les_applications}
+
+%%%%
+\include{3a_le_pipeline}
+
+\include{3b_le_pipeline}
+
+\include{3c_le_pipeline}
+
+%%%%
+\include{4_le_chaine_micmac}
+
+%%%%
+\include{5a_cas_detudes}
+
+\include{5b_cas_detudes}
+
+\include{5c_cas_detudes}
+
+%%%%
+\include{6_conclusions}
+
+\section*{Références}
+\nocite{*}
+\bibliography{references}
+\end{document}
+
+

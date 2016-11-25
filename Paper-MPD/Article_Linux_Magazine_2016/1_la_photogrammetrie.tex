@@ -1,0 +1,23 @@
+\section{La photogrammétrie} 
+\subsection{Une brève histoire de la photogrammétrie}
+
+La photogrammétrie est la science permettant de réaliser des mesures géométriques à partir d'images stéréoscopiques. L'origine de cette technique remonte à 1849-1850, lorsque Aimé Laussedat\footnote{1819-1907} utilisa les perspectives de photographies pour réaliser des plans métriques et nomma sa méthode  "Métrophotographie". La photogrammétrie a considérablement évolué au fil du temps, passant d'un procédé de restitution manuelle nécessitant un matériel lourd et accessible uniquement à un public d'experts à une méthode automatique accessible à tous sur du matériel standard. Au cours du 20\up{ème} siècle, la photogrammétrie employait une instrumentation mécanique lourde et onéreuse afin de réaliser des restitutions du relief en se basant sur des clichés argentiques associés à des appareils photo dits "métriques". À partir des années 1990, les images numériques ont remplacées les films argentiques et les ordinateurs ont remplacés les systèmes mécaniques.
+
+
+\subsection{Les produits de la photogrammétrie}
+La photogrammétrie offre un certain nombre de produits dont les plus communs sont :
+
+\begin{itemize}
+   \item le nuage de point, c'est un ensemble de triplets de coordonnées $x,y,z$ situés sur la surface de l'objet; sa généralité permet de représenter les formes les plus complexes;
+
+   \item si le nuage est de suffisemment bonne qualité (absence de bruit, densité, régularité), il peut être transformé en un surface triangulué dite étanche séparant complétement un intérieur d'un extérieur; ces surfaces permettent par exemple d'alimenter des imprimantes 3D;
+
+   \item le modèle numérique de terrain, c'est un représentation d'un modèle $3D$ sous la forme d'un grille r\'eguli\`ere (ou image) contenant pour chaque noeud $x,y$ (ou pixel) de la grille la valeur du $z$ en ce noeud; la limitation est de ne pouvoir représenter que les reliefs mo\'elisables  sous la forme d'une fonction $z=F(x,y)$; l'avantage est une grande simplicité de manipulation et la compacité de représentation; ces repr\'esentation sont donc tr\`es utilis\'ees en cartographie o\'u les question d'espace disque et de rapidit\'e de navigation sont prépond\'erantes; elles sont à la base de tous les syst\'emes de navigation utilisés sur les globles virtuels (géoportail, google map etc \dots);
+
+   \item l'ortho photographie, c'est une image superposable au mod\`ele num\'erique de terrain, g\'en\'er\'ee par assemblage d'un grand nombre (parfois plusieurs milliers) d'image; la connaissance du relief et de la position des images permet de corriger les effets de perspective ; ces image alimentent aussi les globes virtuels donnant l'impression de naviguer sur la 
+
+\end{itemize}
+
+
+ La chaîne de traitement qui permet à partir d'images stéréoscopiques de réaliser les produits suivants est détaillée à la section \ref{sec_pipeline_auto}.
+\subsection{Avantages et limites de la photogrammétrie}
