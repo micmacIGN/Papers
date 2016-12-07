@@ -1,0 +1,38 @@
+%2 Interactive tools
+%   2.1  Image measurement tools
+%          - all the Saisie
+%   2.2 {Visualization tools}
+%          - about the data format of the outputs (tiff et ply)
+%          - about AperiCloud, to8Bits, GrShade, Nuage2Ply
+%          - about Vino, SEL
+%   2.3 {Data exchange with other software}
+%        - about all the conversion tools
+
+\section*{Interactive tools}
+Although {\tt MicMac} by default is based on simplified command lines, for some processes (e.g. image measurements, visualization of the results)  it is more straight-forward to have a graphical user interface. In this section the different user-interaction interfaces available in {\tt MicMac} are presented. Besides this, for multiple commands there exists a graphical user interface that replaces the standard command line. To run it, the user should simply type the name of the command preceded by the letter 'v'. For example, in the {\tt GrShade} command presented below, the user can type {\tt vGrShade} and a visual interface (c.f. Fig  \ref{fig:visuInterfaceV}) appears and used to run the command.\par 
+%
+All results produced by {\tt MicMac} are exclusively in open data formats (tif, xml, ply) and as such it opens up the possibility to interact with the processing chain at any desirable stage. For instance, the user can import interior and exterior image orientation data and proceed with the dense matching and orthophoto generation. The reader is advised to refer to the software documentation~\cite{micmac:manual} for more details on the conversion procedures. 
+ 
+\subsection*{Image measurement tools}
+In the following, several tools for image measurements and the input of 2D/3D masks are discussed.
+
+Many of the interactive tools are available in a version requiring the installation of {\tt QT} and are available on all platforms. For example, for the {\tt SaisieMasq}, the corresponding QT tool is the {\tt SaisieMasqQT}. Either way, the masking works by creating a binary mask image from a polygonal section in the displayed image, and as such it can be used to, e.g., remove tie points outside the area of the mask (c.f. {\tt HomolFilterMasq}), or to limit the dense reconstruction to a selected part. Moreover, there exists a 3D generalization of the tool where the 3D mask does segmenting of a point cloud by, again, drawing a polygon (c.f. Fig. \ref{fig:saisieMasq}).  This information is then stored in order to be introduced in later processing stages.\par 
+% 
+The {\tt SaisieAppuisInitQT}/ {\tt Saisie\-AppuisPredicQT} tools allow for measurements of GCPs in the images (c.f. Fig \ref{fig:SaisieGCP}). Provided that the camera orientation parameters are known with a reasonable accuracy, while the GPCs are expressed in the same CS, the latter tool predicts their 2D points positions to facilitate the image measurements step. These tools normally precede the georeferencing operations with {\tt GCPBascule} and/or {\tt Campari}.\par 
+%
+Measurements necessary to perform a spatial similarity transformation, i.e. the origin, the axes directions and distances, can be collected within another georeferencing tool -- the {\tt SaisieBascQT}.  
+
+\subsection*{Visualization tools}
+To visualize the intermediary and final results {\tt MicMac} offers a range of different tools.\par 
+%
+The {\tt SEL} tool allows to visualize the tie points between a stereo pair calculated by {\tt Tapioca} (c.f. Fig \ref{fig:sel}). The {\tt AperiCloud} tool converts the result of the BA, that is the poses and 3D tie points, to the point cloud ply format.  (c.f. Fig \ref{fig:apericloud}). 
+
+The {\tt Vino} tool is a simple image viewer adapted to efficient visualization of very large images (i.e. in size of a few gigabytes), irrespective of their type (i.e. integer, float or $>$8Bit). Moreover, it lets the user to modify the histogram of the image or generate an image crop.
+
+Other tools allow a more intuitive visualization of the depth map. For instance, the {\tt to8bits} tool converts 32-bit or 16-bit images to 8-bit images, while the {\tt GrShade} tool computes shading from a depth map image (c.f. Fig \ref{fig:basRelief}). Lastly, the {\tt Nuage2Ply} allows to transform a depth map into a point cloud ply format (c.f. Fig \ref{fig:fisheye}).
+
+
+%\subsection*{Data exchange with other software}
+%{\tt MicMac} is a software that uses only open formats for the generation of results (tif, xml, ply). This offers the possibility of importing external results or to use {\tt MicMac} only for certain steps of the photogrammetric processing chain. Some tools for converting or exporting results into other software formats also exist. The tool {\tt Apero2Meshlab} converts camera poses from {\tt MicMac} workflow to a {\tt Meshlab} compatible format, {\tt Apero2PMVS} converts to {\tt PMVS} format while {\tt Apero2NVM} creates a .nvm file which is directly usable in input of the dense-matching part of four photogrammetric softwares : {\tt VisualSFM}, {\tt MVE}, {\tt SURE}, {\tt MeshRecon}.
+
+%(Add RecalRPC)

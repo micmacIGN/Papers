@@ -1,0 +1,339 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{11}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\textsf{#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem{granshaw2015editorial}
+\begin{barticle}
+\bauthor{\bsnm{Granshaw}, \binits{S.I.}},
+\bauthor{\bsnm{Fraser}, \binits{C.S.}}:
+\batitle{Editorial: Computer vision and photogrammetry: Interaction or
+  introspection?}
+\bjtitle{The Photogrammetric Record}
+\bvolume{30}(\bissue{149}),
+\bfpage{3}--\blpage{7}
+(\byear{2015})
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem{Lowe2004}
+\begin{barticle}
+\bauthor{\bsnm{Lowe}, \binits{D.G.}}:
+\batitle{Distinctive image features from scale-invariant keypoints}.
+\bjtitle{International Journal of Computer Vision}
+\bvolume{60}(\bissue{2}),
+\bfpage{91}--\blpage{110}
+(\byear{2004}).
+doi:\doiurl{10.1023/B:VISI.0000029664.99615.94}
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem{snavely2006photo}
+\begin{bchapter}
+\bauthor{\bsnm{Snavely}, \binits{N.}},
+\bauthor{\bsnm{Seitz}, \binits{S.M.}},
+\bauthor{\bsnm{Szeliski}, \binits{R.}}:
+\bctitle{Photo tourism: exploring photo collections in 3d}.
+In: \bbtitle{ACM Transactions on Graphics (TOG)},
+vol. \bseriesno{25},
+pp. \bfpage{835}--\blpage{846}
+(\byear{2006}).
+\bcomment{ACM}
+\end{bchapter}
+\endbibitem
+
+%%% 4
+\bibitem{marc:11:apero}
+\begin{botherref}
+\oauthor{\bsnm{Pierrot-Deseilligny}, \binits{M.}},
+\oauthor{\bsnm{Clery}, \binits{I.}}:
+Apero, an open source bundle adjustment software for automatic calibration and
+  orientation of set of images
+\textbf{38}(5),
+269--276
+(2011)
+\end{botherref}
+\endbibitem
+
+%%% 5
+\bibitem{pierrot2006multiresolution}
+\begin{botherref}
+\oauthor{\bsnm{Pierrot-Deseilligny}, \binits{M.}},
+\oauthor{\bsnm{Paparoditis}, \binits{N.}}:
+A multiresolution and optimization-based image matching approach: An
+  application to surface reconstruction from spot5-hrs stereo imagery.
+Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences
+\textbf{36}(1/W41)
+(2006)
+\end{botherref}
+\endbibitem
+
+%%% 6
+\bibitem{hirschmuller2008stereo}
+\begin{barticle}
+\bauthor{\bsnm{Hirschmuller}, \binits{H.}}:
+\batitle{Stereo processing by semiglobal matching and mutual information}.
+\bjtitle{IEEE Transactions on pattern analysis and machine intelligence}
+\bvolume{30}(\bissue{2}),
+\bfpage{328}--\blpage{341}
+(\byear{2008})
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem{toldo2015hierarchical}
+\begin{barticle}
+\bauthor{\bsnm{Toldo}, \binits{R.}},
+\bauthor{\bsnm{Gherardi}, \binits{R.}},
+\bauthor{\bsnm{Farenzena}, \binits{M.}},
+\bauthor{\bsnm{Fusiello}, \binits{A.}}:
+\batitle{Hierarchical structure-and-motion recovery from uncalibrated images}.
+\bjtitle{Computer Vision and Image Understanding}
+\bvolume{140},
+\bfpage{127}--\blpage{143}
+(\byear{2015})
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem{nocedal2006numerical}
+\begin{bbook}
+\bauthor{\bsnm{Nocedal}, \binits{J.}},
+\bauthor{\bsnm{Wright}, \binits{S.}}:
+\bbtitle{Numerical Optimization}.
+\bpublisher{Springer}, \blocation{???}
+(\byear{2006})
+\end{bbook}
+\endbibitem
+
+%%% 9
+\bibitem{szeliski2010computer}
+\begin{bbook}
+\bauthor{\bsnm{Szeliski}, \binits{R.}}:
+\bbtitle{Computer Vision: Algorithms and Applicationsff}.
+\bpublisher{Springer}, \blocation{???}
+(\byear{2010})
+\end{bbook}
+\endbibitem
+
+%%% 10
+\bibitem{roy1998maximum}
+\begin{bchapter}
+\bauthor{\bsnm{Roy}, \binits{S.}},
+\bauthor{\bsnm{Cox}, \binits{I.J.}}:
+\bctitle{A maximum-flow formulation of the n-camera stereo correspondence
+  problem}.
+In: \bbtitle{Computer Vision, 1998. Sixth International Conference On},
+pp. \bfpage{492}--\blpage{499}
+(\byear{1998}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 11
+\bibitem{micmac:manual}
+\begin{botherref}
+MicMac, Apero, Pastis and Other Beverages in a Nutshell.
+\url{https://github.com/micmacIGN/Documentation}
+\end{botherref}
+\endbibitem
+
+\end{thebibliography}
+
+\newcommand{\BMCxmlcomment}[1]{}
+
+\BMCxmlcomment{
+
+<refgrp>
+
+<bibl id="B1">
+  <title><p>Editorial: Computer vision and photogrammetry: Interaction or
+  introspection?</p></title>
+  <aug>
+    <au><snm>Granshaw</snm><fnm>SI</fnm></au>
+    <au><snm>Fraser</snm><fnm>CS</fnm></au>
+  </aug>
+  <source>The Photogrammetric Record</source>
+  <publisher>Wiley Online Library</publisher>
+  <pubdate>2015</pubdate>
+  <volume>30</volume>
+  <issue>149</issue>
+  <fpage>3</fpage>
+  <lpage>-7</lpage>
+</bibl>
+
+<bibl id="B2">
+  <title><p>Distinctive Image Features from Scale-Invariant
+  Keypoints</p></title>
+  <aug>
+    <au><snm>Lowe</snm><fnm>DG</fnm></au>
+  </aug>
+  <source>International Journal of Computer Vision</source>
+  <pubdate>2004</pubdate>
+  <volume>60</volume>
+  <issue>2</issue>
+  <fpage>91</fpage>
+  <lpage>-110</lpage>
+  <url>http://dx.doi.org/10.1023/B:VISI.0000029664.99615.94</url>
+</bibl>
+
+<bibl id="B3">
+  <title><p>Photo tourism: exploring photo collections in 3D</p></title>
+  <aug>
+    <au><snm>Snavely</snm><fnm>N</fnm></au>
+    <au><snm>Seitz</snm><fnm>SM</fnm></au>
+    <au><snm>Szeliski</snm><fnm>R</fnm></au>
+  </aug>
+  <source>ACM transactions on graphics (TOG)</source>
+  <pubdate>2006</pubdate>
+  <volume>25</volume>
+  <issue>3</issue>
+  <fpage>835</fpage>
+  <lpage>-846</lpage>
+</bibl>
+
+<bibl id="B4">
+  <title><p>Apero, an open source bundle adjustment software for automatic
+  calibration and orientation of set of images</p></title>
+  <aug>
+    <au><snm>Pierrot Deseilligny</snm><fnm>M</fnm></au>
+    <au><snm>Clery</snm><fnm>I</fnm></au>
+  </aug>
+  <source>ISPRS International Archives of the Photogrammetry, Remote Sensing
+  and Spatial Information Sciences</source>
+  <pubdate>2011</pubdate>
+  <volume>38</volume>
+  <issue>5</issue>
+  <fpage>269</fpage>
+  <lpage>-276</lpage>
+</bibl>
+
+<bibl id="B5">
+  <title><p>A multiresolution and optimization-based image matching approach:
+  An application to surface reconstruction from SPOT5-HRS stereo
+  imagery</p></title>
+  <aug>
+    <au><snm>Pierrot Deseilligny</snm><fnm>M</fnm></au>
+    <au><snm>Paparoditis</snm><fnm>N</fnm></au>
+  </aug>
+  <source>Archives of Photogrammetry, Remote Sensing and Spatial Information
+  Sciences</source>
+  <pubdate>2006</pubdate>
+  <volume>36</volume>
+  <issue>1/W41</issue>
+</bibl>
+
+<bibl id="B6">
+  <title><p>Stereo processing by semiglobal matching and mutual
+  information</p></title>
+  <aug>
+    <au><snm>Hirschmuller</snm><fnm>H</fnm></au>
+  </aug>
+  <source>IEEE Transactions on pattern analysis and machine
+  intelligence</source>
+  <publisher>IEEE</publisher>
+  <pubdate>2008</pubdate>
+  <volume>30</volume>
+  <issue>2</issue>
+  <fpage>328</fpage>
+  <lpage>-341</lpage>
+</bibl>
+
+<bibl id="B7">
+  <title><p>Hierarchical structure-and-motion recovery from uncalibrated
+  images</p></title>
+  <aug>
+    <au><snm>Toldo</snm><fnm>R</fnm></au>
+    <au><snm>Gherardi</snm><fnm>R</fnm></au>
+    <au><snm>Farenzena</snm><fnm>M</fnm></au>
+    <au><snm>Fusiello</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Computer Vision and Image Understanding</source>
+  <publisher>Elsevier</publisher>
+  <pubdate>2015</pubdate>
+  <volume>140</volume>
+  <fpage>127</fpage>
+  <lpage>-143</lpage>
+</bibl>
+
+<bibl id="B8">
+  <title><p>Numerical optimization</p></title>
+  <aug>
+    <au><snm>Nocedal</snm><fnm>J</fnm></au>
+    <au><snm>Wright</snm><fnm>S</fnm></au>
+  </aug>
+  <publisher>Springer Science and Business Media</publisher>
+  <pubdate>2006</pubdate>
+</bibl>
+
+<bibl id="B9">
+  <title><p>Computer vision: algorithms and applicationsff</p></title>
+  <aug>
+    <au><snm>Szeliski</snm><fnm>R</fnm></au>
+  </aug>
+  <publisher>Springer Science and Business Media</publisher>
+  <pubdate>2010</pubdate>
+</bibl>
+
+<bibl id="B10">
+  <title><p>A maximum-flow formulation of the n-camera stereo correspondence
+  problem</p></title>
+  <aug>
+    <au><snm>Roy</snm><fnm>S</fnm></au>
+    <au><snm>Cox</snm><fnm>IJ</fnm></au>
+  </aug>
+  <source>Computer Vision, 1998. Sixth International Conference on</source>
+  <pubdate>1998</pubdate>
+  <fpage>492</fpage>
+  <lpage>-499</lpage>
+</bibl>
+
+<bibl id="B11">
+  <title><p>MicMac, Apero, Pastis and Other Beverages in a Nutshell</p></title>
+  <url>https://github.com/micmacIGN/Documentation</url>
+</bibl>
+
+</refgrp>
+} % end of \BMCxmlcomment

@@ -1,0 +1,1073 @@
+% This file was created with JabRef 2.10b2.
+% Encoding: UTF8
+
+
+@InProceedings{agarwal2009building,
+  Title                    = {Building rome in a day},
+  Author                   = {Agarwal, Sameer and Snavely, Noah and Simon, Ian and Seitz, Steven M and Szeliski, Richard},
+  Booktitle                = {2009 IEEE 12th international conference on computer vision},
+  Year                     = {2009},
+  Organization             = {IEEE},
+  Pages                    = {72--79}
+}
+
+@Article{ahmadabadian2013comparison,
+  Title                    = {A comparison of dense matching algorithms for scaled surface reconstruction using stereo camera rigs},
+  Author                   = {Ahmadabadian, Ali Hosseininaveh and Robson, Stuart and Boehm, Jan and Shortis, Mark and Wenzel, Konrad and Fritsch, Dieter},
+  Journal                  = {ISPRS Journal of Photogrammetry and Remote Sensing},
+  Year                     = {2013},
+  Pages                    = {157--167},
+  Volume                   = {78},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{baltsavias1999airborne,
+  Title                    = {Airborne laser scanning: basic relations and formulas},
+  Author                   = {Baltsavias, Emmanuel P},
+  Journal                  = {ISPRS Journal of photogrammetry and remote sensing},
+  Year                     = {1999},
+  Number                   = {2},
+  Pages                    = {199--214},
+  Volume                   = {54},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{bengio2013representation,
+  Title                    = {Representation learning: A review and new perspectives},
+  Author                   = {Bengio, Yoshua and Courville, Aaron and Vincent, Pascal},
+  Journal                  = {IEEE transactions on pattern analysis and machine intelligence},
+  Year                     = {2013},
+  Number                   = {8},
+  Pages                    = {1798--1828},
+  Volume                   = {35},
+
+  Publisher                = {IEEE}
+}
+
+@Article{bhushan2006micro,
+  Title                    = {Micro-and nanoscale characterization of hydrophobic and hydrophilic leaf surfaces},
+  Author                   = {Bhushan, Bharat and Jung, Yong Chae},
+  Journal                  = {Nanotechnology},
+  Year                     = {2006},
+  Number                   = {11},
+  Pages                    = {2758},
+  Volume                   = {17},
+
+  Publisher                = {IOP Publishing}
+}
+
+@Article{boykov2004experimental,
+  Title                    = {An experimental comparison of min-cut/max-flow algorithms for energy minimization in vision},
+  Author                   = {Boykov, Yuri and Kolmogorov, Vladimir},
+  Journal                  = {IEEE transactions on pattern analysis and machine intelligence},
+  Year                     = {2004},
+  Number                   = {9},
+  Pages                    = {1124--1137},
+  Volume                   = {26},
+
+  Publisher                = {IEEE}
+}
+
+@Article{brown1989strategy,
+  Title                    = {A strategy for multi-camera on-the-job self-calibration},
+  Author                   = {Brown, Duane},
+  Journal                  = {Institute for photogrammetry Stuttgart, Festschrift Friedrich Ackermann 60th Birthday http://www. vision. caitech. edu/bouguetj/calib\_doc/papers/Clarke98\_calib\_history. pdf},
+  Year                     = {1989}
+}
+
+@Article{brown2011discriminative,
+  Title                    = {Discriminative learning of local image descriptors},
+  Author                   = {Brown, Matthew and Hua, Gang and Winder, Simon},
+  Journal                  = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  Year                     = {2011},
+  Number                   = {1},
+  Pages                    = {43--57},
+  Volume                   = {33},
+
+  Publisher                = {IEEE}
+}
+
+@Article{2016ISPAnIII311C,
+  Title                    = {{Invariant Descriptor Learning Using a Siamese Convolutional Neural Network}},
+  Author                   = {{Chen}, L. and {Rottensteiner}, F. and {Heipke}, C.},
+  Journal                  = {ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  Year                     = {2016},
+
+  Month                    = jun,
+  Pages                    = {11-18},
+
+  Adsnote                  = {Provided by the SAO/NASA Astrophysics Data System},
+  Adsurl                   = {http://adsabs.harvard.edu/abs/2016ISPAnIII3...11C},
+  Doi                      = {10.5194/isprs-annals-III-3-11-2016}
+}
+
+@InProceedings{cohen2012discovering,
+  Title                    = {Discovering and exploiting 3d symmetries in structure from motion},
+  Author                   = {Cohen, Andrea and Zach, Christopher and Sinha, Sudipta N and Pollefeys, Marc},
+  Booktitle                = {Computer Vision and Pattern Recognition (CVPR), 2012 IEEE Conference on},
+  Year                     = {2012},
+  Organization             = {IEEE},
+  Pages                    = {1514--1521}
+}
+
+@Article{colomina2014unmanned,
+  Title                    = {Unmanned aerial systems for photogrammetry and remote sensing: A review},
+  Author                   = {Colomina, Ismael and Molina, Pere},
+  Journal                  = {ISPRS Journal of Photogrammetry and Remote Sensing},
+  Year                     = {2014},
+  Pages                    = {79--97},
+  Volume                   = {92},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{dassot2011use,
+  Title                    = {The use of terrestrial LiDAR technology in forest science: application fields, benefits and challenges},
+  Author                   = {Dassot, Mathieu and Constant, Thi{\'e}ry and Fournier, Meriem},
+  Journal                  = {Annals of Forest Science},
+  Year                     = {2011},
+  Number                   = {5},
+  Pages                    = {959--974},
+  Volume                   = {68},
+
+  Publisher                = {Springer}
+}
+
+@InProceedings{deseilligny2011apero,
+  Title                    = {Apero, an open source bundle adjusment software for automatic calibration and orientation of set of images},
+  Author                   = {Deseilligny, M Pierrot and Clery, I},
+  Booktitle                = {Proceedings of the ISPRS Symposium, 3DARCH11},
+  Year                     = {2011},
+  Volume                   = {269277}
+}
+
+@Article{dick2010spatial,
+  Title                    = {Spatial tree mapping using photography},
+  Author                   = {Dick, Adam R and Kershaw, John A and MacLean, David A},
+  Journal                  = {Northern Journal of Applied Forestry},
+  Year                     = {2010},
+  Number                   = {2},
+  Pages                    = {68--74},
+  Volume                   = {27},
+
+  Publisher                = {Society of American Foresters}
+}
+
+@InProceedings{forstner1987fast,
+  Title                    = {A fast operator for detection and precise location of distinct points, corners and centres of circular features},
+  Author                   = {F{\"o}rstner, Wolfgang and G{\"u}lch, Eberhard},
+  Booktitle                = {Proc. ISPRS intercommission conference on fast processing of photogrammetric data},
+  Year                     = {1987},
+  Pages                    = {281--305}
+}
+
+@Book{faugeras2002variational,
+  Title                    = {Variational principles, surface evolution, pde's, level set methods and the stereo problem},
+  Author                   = {Faugeras, Olivier and Keriven, Renaud},
+  Publisher                = {IEEE},
+  Year                     = {2002}
+}
+
+@Article{forsman2016estimation,
+  Title                    = {Estimation of Tree Stem Attributes Using Terrestrial Photogrammetry with a Camera Rig},
+  Author                   = {Forsman, Mona and B{\"o}rlin, Niclas and Holmgren, Johan},
+  Journal                  = {Forests},
+  Year                     = {2016},
+  Number                   = {3},
+  Pages                    = {61},
+  Volume                   = {7},
+
+  Publisher                = {Multidisciplinary Digital Publishing Institute}
+}
+
+@Article{fraser1997digital,
+  Title                    = {Digital camera self-calibration},
+  Author                   = {Fraser, Clive S},
+  Journal                  = {ISPRS Journal of Photogrammetry and Remote sensing},
+  Year                     = {1997},
+  Number                   = {4},
+  Pages                    = {149--159},
+  Volume                   = {52},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{furukawa2010accurate,
+  Title                    = {Accurate, dense, and robust multiview stereopsis},
+  Author                   = {Furukawa, Yasutaka and Ponce, Jean},
+  Journal                  = {IEEE transactions on pattern analysis and machine intelligence},
+  Year                     = {2010},
+  Number                   = {8},
+  Pages                    = {1362--1376},
+  Volume                   = {32},
+
+  Publisher                = {IEEE}
+}
+
+@Book{garcia2012using,
+  Title                    = {Using remote sensing to estimate a renewable resource: forest residual biomass},
+  Author                   = {Garc{\'\i}a-Mart{\'\i}n, A and P{\'e}rez-Cabello, F and de la Riva, J and Montorio, R},
+  Publisher                = {INTECH Open Access Publisher},
+  Year                     = {2012}
+}
+
+@Article{gatziolis20153d,
+  Title                    = {3D tree dimensionality assessment using photogrammetry and small unmanned aerial vehicles},
+  Author                   = {Gatziolis, Demetrios and Lienard, Jean F and Vogs, Andre and Strigul, Nikolay S},
+  Journal                  = {PloS one},
+  Year                     = {2015},
+  Number                   = {9},
+  Pages                    = {e0137765},
+  Volume                   = {10},
+
+  Publisher                = {Public Library of Science}
+}
+
+@InProceedings{gherardi2010improving,
+  Title                    = {Improving the efficiency of hierarchical structure-and-motion},
+  Author                   = {Gherardi, Riccardo and Farenzena, Michela and Fusiello, Andrea},
+  Booktitle                = {2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition},
+  Year                     = {2010}
+}
+
+@Article{granshaw2015editorial,
+  Title                    = {Editorial: Computer vision and photogrammetry: Interaction or introspection?},
+  Author                   = {Granshaw, Stuart I and Fraser, Clive S},
+  Journal                  = {The Photogrammetric Record},
+  Year                     = {2015},
+  Number                   = {149},
+  Pages                    = {3--7},
+  Volume                   = {30},
+
+  Publisher                = {Wiley Online Library}
+}
+
+@Article{gruen1985adaptive,
+  Title                    = {Adaptive least squares correlation: a powerful image matching technique},
+  Author                   = {Gruen, Armin},
+  Journal                  = {South African Journal of Photogrammetry, Remote Sensing and Cartography},
+  Year                     = {1985},
+  Number                   = {3},
+  Pages                    = {175--187},
+  Volume                   = {14}
+}
+
+@Article{gruen1988geometrically,
+  Title                    = {Geometrically constrained multiphoto matching},
+  Author                   = {Gruen, A and Baltsavias, Emmanuel P},
+  Journal                  = {Photogrammetric engineering and remote sensing},
+  Year                     = {1988},
+  Number                   = {5},
+  Pages                    = {633--641},
+  Volume                   = {54}
+}
+
+@InProceedings{han2015matchnet,
+  Title                    = {MatchNet: Unifying feature and metric learning for patch-based matching},
+  Author                   = {Han, Xufeng and Leung, Thomas and Jia, Yangqing and Sukthankar, Rahul and Berg, Alexander C},
+  Booktitle                = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  Year                     = {2015},
+  Pages                    = {3279--3286}
+}
+
+@Article{heikkinen2011svm,
+  Title                    = {An SVM classification of tree species radiometric signatures based on the Leica ADS40 sensor},
+  Author                   = {Heikkinen, Ville and Korpela, Ilkka and Tokola, Timo and Honkavaara, Eija and Parkkinen, Jussi},
+  Journal                  = {IEEE Transactions on Geoscience and Remote Sensing},
+  Year                     = {2011},
+  Number                   = {11},
+  Pages                    = {4539--4551},
+  Volume                   = {49},
+
+  Publisher                = {IEEE}
+}
+
+@Article{heinzel2012investigating,
+  Title                    = {Investigating multiple data sources for tree species classification in temperate forest and use for single tree delineation},
+  Author                   = {Heinzel, Johannes and Koch, Barbara},
+  Journal                  = {International Journal of Applied Earth Observation and Geoinformation},
+  Year                     = {2012},
+  Pages                    = {101--110},
+  Volume                   = {18},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{herrera2011stereovision,
+  Title                    = {A stereovision matching strategy for images captured with fish-eye lenses in forest environments},
+  Author                   = {Herrera, Pedro Javier and Pajares, Gonzalo and Guijarro, Mar{\'\i}a and Ruz, Jos{\'e} J and Cruz, Jes{\'u}s M},
+  Journal                  = {Sensors},
+  Year                     = {2011},
+  Number                   = {2},
+  Pages                    = {1756--1783},
+  Volume                   = {11},
+
+  Publisher                = {Molecular Diversity Preservation International}
+}
+
+@Article{hirschmuller2008stereo,
+  Title                    = {Stereo processing by semiglobal matching and mutual information},
+  Author                   = {Hirschmuller, Heiko},
+  Journal                  = {IEEE Transactions on pattern analysis and machine intelligence},
+  Year                     = {2008},
+  Number                   = {2},
+  Pages                    = {328--341},
+  Volume                   = {30},
+
+  Publisher                = {IEEE}
+}
+
+@Article{hirschmuller2009evaluation,
+  Title                    = {Evaluation of stereo matching costs on images with radiometric differences},
+  Author                   = {Hirschmuller, Heiko and Scharstein, Daniel},
+  Journal                  = {IEEE transactions on pattern analysis and machine intelligence},
+  Year                     = {2009},
+  Number                   = {9},
+  Pages                    = {1582--1599},
+  Volume                   = {31},
+
+  Publisher                = {IEEE}
+}
+
+@Article{holopainen2014outlook,
+  Title                    = {Outlook for the next generation’s precision forestry in Finland},
+  Author                   = {Holopainen, Markus and Vastaranta, Mikko and Hyypp{\"a}, Juha},
+  Journal                  = {Forests},
+  Year                     = {2014},
+  Number                   = {7},
+  Pages                    = {1682--1694},
+  Volume                   = {5},
+
+  Publisher                = {Multidisciplinary Digital Publishing Institute}
+}
+
+@Article{hyyppa2008review,
+  Title                    = {Review of methods of small-footprint airborne laser scanning for extracting forest inventory data in boreal forests},
+  Author                   = {Hyypp{\"a}, J and Hyypp{\"a}, H and Leckie, D and Gougeon, F and Yu, X and Maltamo, M},
+  Journal                  = {International Journal of Remote Sensing},
+  Year                     = {2008},
+  Number                   = {5},
+  Pages                    = {1339--1366},
+  Volume                   = {29},
+
+  Publisher                = {Taylor \& Francis}
+}
+
+@InProceedings{ihrke2008state,
+  Title                    = {State of the art in transparent and specular object reconstruction},
+  Author                   = {Ihrke, Ivo and Kutulakos, Kiriakos N and Lensch, Hendrik PA and Magnor, Marcus and Heidrich, Wolfgang},
+  Booktitle                = {EUROGRAPHICS 2008 STAR--STATE OF THE ART REPORT},
+  Year                     = {2008},
+  Organization             = {Citeseer}
+}
+
+@InProceedings{indelman2012incremental,
+  Title                    = {Incremental light bundle adjustment},
+  Author                   = {Indelman, Vadim and Roberts, Richard and Beall, Chris and Dellaert, Frank},
+  Booktitle                = {Proceedings of the British Machine Vision Conference (BMVC 2012)},
+  Year                     = {2012},
+  Pages                    = {3--7}
+}
+
+@Article{jia2014caffe,
+  Title                    = {Caffe: Convolutional Architecture for Fast Feature Embedding},
+  Author                   = {Jia, Yangqing and Shelhamer, Evan and Donahue, Jeff and Karayev, Sergey and Long, Jonathan and Girshick, Ross and Guadarrama, Sergio and Darrell, Trevor},
+  Journal                  = {arXiv preprint arXiv:1408.5093},
+  Year                     = {2014}
+}
+
+@Article{kanade1994stereo,
+  Title                    = {A stereo matching algorithm with an adaptive window: Theory and experiment},
+  Author                   = {Kanade, Takeo and Okutomi, Masatoshi},
+  Journal                  = {IEEE transactions on Pattern analysis and Machine Intelligence},
+  Year                     = {1994},
+  Number                   = {9},
+  Pages                    = {920--932},
+  Volume                   = {16},
+
+  Publisher                = {IEEE}
+}
+
+@Article{korpela2011variation,
+  Title                    = {Variation and directional anisotropy of reflectance at the crown scale—Implications for tree species classification in digital aerial images},
+  Author                   = {Korpela, Ilkka and Heikkinen, Ville and Honkavaara, Eija and Rohrbach, Felix and Tokola, Timo},
+  Journal                  = {Remote Sensing of Environment},
+  Year                     = {2011},
+  Number                   = {8},
+  Pages                    = {2062--2074},
+  Volume                   = {115},
+
+  Publisher                = {Elsevier}
+}
+
+@Book{kraus2007photogrammetry,
+  Title                    = {Photogrammetry: geometry from images and laser scans},
+  Author                   = {Kraus, Karl},
+  Publisher                = {Walter de Gruyter},
+  Year                     = {2007}
+}
+
+@Article{kraus1997photogrammetry,
+  Title                    = {Photogrammetry, volume 2: Advanced methods and applications, Ferd},
+  Author                   = {Kraus, Karl},
+  Journal                  = {Dummler’s Verlag, Bonn},
+  Year                     = {1997}
+}
+
+@Book{kraus1993photogrammetry,
+  Title                    = {Photogrammetry},
+  Author                   = {Kraus, Karl},
+  Publisher                = {Ferdinand Dummlers Verlag},
+  Year                     = {1993},
+  Volume                   = {1}
+}
+
+@InCollection{kumar2012leafsnap,
+  Title                    = {Leafsnap: A computer vision system for automatic plant species identification},
+  Author                   = {Kumar, Neeraj and Belhumeur, Peter N and Biswas, Arijit and Jacobs, David W and Kress, W John and Lopez, Ida C and Soares, Jo{\~a}o VB},
+  Booktitle                = {Computer Vision--ECCV 2012},
+  Publisher                = {Springer},
+  Year                     = {2012},
+  Pages                    = {502--516}
+}
+
+@Article{ladicky2015learning,
+  Title                    = {Learning the Matching Function},
+  Author                   = {Ladick{\`y}, L'ubor and H{\"a}ne, Christian and Pollefeys, Marc},
+  Journal                  = {arXiv preprint arXiv:1502.00652},
+  Year                     = {2015}
+}
+
+@Article{leberl2010point,
+  Title                    = {Point clouds},
+  Author                   = {Leberl, Franz and Irschara, Arnold and Pock, Thomas and Meixner, Philipp and Gruber, Michael and Scholz, Set and Wiechert, Alexander},
+  Journal                  = {Photogrammetric Engineering \& Remote Sensing},
+  Year                     = {2010},
+  Number                   = {10},
+  Pages                    = {1123--1134},
+  Volume                   = {76},
+
+  Publisher                = {American Society for Photogrammetry and Remote Sensing}
+}
+
+@Article{liang2016terrestrial,
+  Title                    = {Terrestrial laser scanning in forest inventories},
+  Author                   = {Liang, Xinlian and Kankare, Ville and Hyypp{\"a}, Juha and Wang, Yunsheng and Kukko, Antero and Haggr{\'e}n, Henrik and Yu, Xiaowei and Kaartinen, Harri and Jaakkola, Anttoni and Guan, Fengying and others},
+  Journal                  = {ISPRS Journal of Photogrammetry and Remote Sensing},
+  Year                     = {2016},
+  Pages                    = {63--77},
+  Volume                   = {115},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{liang2014automated,
+  Title                    = {Automated stem curve measurement using terrestrial laser scanning},
+  Author                   = {Liang, Xinlian and Kankare, Ville and Yu, Xiaowei and Hyypp{\"a}, Juha and Holopainen, Markus},
+  Journal                  = {IEEE Transactions on Geoscience and Remote Sensing},
+  Year                     = {2014},
+  Number                   = {3},
+  Pages                    = {1739--1748},
+  Volume                   = {52},
+
+  Publisher                = {IEEE}
+}
+
+@Article{Liang2015,
+  Title                    = {Forest data collection using terrestrial image-based point clouds from a handheld camera compared to terrestrial and personal laser scanning},
+  Author                   = {Liang, Xinlian and Wang, Yunsheng and Jaakkola, Anttoni and Kukko, Antero and Kaartinen, Harri and Hyypp{\"a}, Juha and Honkavaara, Eija and Liu, Jingbin},
+  Journal                  = {IEEE Transactions on Geoscience and Remote Sensing},
+  Year                     = {2015},
+  Number                   = {9},
+  Pages                    = {5117--5132},
+  Volume                   = {53},
+
+  Publisher                = {IEEE}
+}
+
+@Article{liang2015forest,
+  Title                    = {Forest data collection using terrestrial image-based point clouds from a handheld camera compared to terrestrial and personal laser scanning},
+  Author                   = {Liang, Xinlian and Wang, Yunsheng and Jaakkola, Anttoni and Kukko, Antero and Kaartinen, Harri and Hyypp{\"a}, Juha and Honkavaara, Eija and Liu, Jingbin},
+  Journal                  = {IEEE Transactions on Geoscience and Remote Sensing},
+  Year                     = {2015},
+  Number                   = {9},
+  Pages                    = {5117--5132},
+  Volume                   = {53},
+
+  Publisher                = {IEEE}
+}
+
+@Article{lim2003lidar,
+  Title                    = {LiDAR remote sensing of forest structure},
+  Author                   = {Lim, Kevin and Treitz, Paul and Wulder, Michael and St-Onge, Beno{\^\i}t and Flood, Martin},
+  Journal                  = {Progress in physical geography},
+  Year                     = {2003},
+  Number                   = {1},
+  Pages                    = {88--106},
+  Volume                   = {27},
+
+  Publisher                = {Sage Publications}
+}
+
+@Article{lindberg2012comparison,
+  Title                    = {Comparison of methods for estimation of stem volume, stem number and basal area from airborne laser scanning data in a hemi-boreal forest},
+  Author                   = {Lindberg, Eva and Hollaus, Markus},
+  Journal                  = {Remote Sensing},
+  Year                     = {2012},
+  Number                   = {4},
+  Pages                    = {1004--1023},
+  Volume                   = {4},
+
+  Publisher                = {Molecular Diversity Preservation International}
+}
+
+@Article{lisein2013photogrammetric,
+  Title                    = {A photogrammetric workflow for the creation of a forest canopy height model from small unmanned aerial system imagery},
+  Author                   = {Lisein, Jonathan and Pierrot-Deseilligny, Marc and Bonnet, St{\'e}phanie and Lejeune, Philippe},
+  Journal                  = {Forests},
+  Year                     = {2013},
+  Number                   = {4},
+  Pages                    = {922--944},
+  Volume                   = {4},
+
+  Publisher                = {Multidisciplinary Digital Publishing Institute}
+}
+
+@Article{Lowe2004,
+  Title                    = {Distinctive Image Features from Scale-Invariant Keypoints},
+  Author                   = {Lowe, David G.},
+  Journal                  = {International Journal of Computer Vision},
+  Year                     = {2004},
+  Number                   = {2},
+  Pages                    = {91--110},
+  Volume                   = {60},
+
+  Abstract                 = {This paper presents a method for extracting distinctive invariant features from images that can be used to perform reliable matching between different views of an object or scene. The features are invariant to image scale and rotation, and are shown to provide robust matching across a substantial range of affine distortion, change in 3D viewpoint, addition of noise, and change in illumination. The features are highly distinctive, in the sense that a single feature can be correctly matched with high probability against a large database of features from many images. This paper also describes an approach to using these features for object recognition. The recognition proceeds by matching individual features to a database of features from known objects using a fast nearest-neighbor algorithm, followed by a Hough transform to identify clusters belonging to a single object, and finally performing verification through least-squares solution for consistent pose parameters. This approach to recognition can robustly identify objects among clutter and occlusion while achieving near real-time performance.},
+  Doi                      = {10.1023/B:VISI.0000029664.99615.94},
+  ISSN                     = {1573-1405},
+  Url                      = {http://dx.doi.org/10.1023/B:VISI.0000029664.99615.94}
+}
+
+@InProceedings{lowe1999object,
+  Title                    = {Object recognition from local scale-invariant features},
+  Author                   = {Lowe, David G},
+  Booktitle                = {Computer vision, 1999. The proceedings of the seventh IEEE international conference on},
+  Year                     = {1999},
+  Organization             = {Ieee},
+  Pages                    = {1150--1157},
+  Volume                   = {2}
+}
+
+@Article{maas2015accuracy,
+  Title                    = {On the accuracy potential in underwater/multimedia photogrammetry},
+  Author                   = {Maas, Hans-Gerd},
+  Journal                  = {Sensors},
+  Year                     = {2015},
+  Number                   = {8},
+  Pages                    = {18140--18152},
+  Volume                   = {15},
+
+  Publisher                = {Multidisciplinary Digital Publishing Institute}
+}
+
+@Book{magurran2011biological,
+  Title                    = {Biological diversity: frontiers in measurement and assessment},
+  Author                   = {Magurran, Anne E and McGill, Brian J},
+  Publisher                = {Oxford University Press},
+  Year                     = {2011}
+}
+
+@InProceedings{mcglone2013manual,
+  Title                    = {Manual of photogrammetry},
+  Author                   = {McGlone, J Chris and Mikhail, E and Bethel, J},
+  Year                     = {2013},
+  Organization             = {American Society for Photogrammetry and Remote Sensing Bethesda, MD, USA}
+}
+
+@Article{mikolajczyk2005performance,
+  Title                    = {A performance evaluation of local descriptors},
+  Author                   = {Mikolajczyk, Krystian and Schmid, Cordelia},
+  Journal                  = {IEEE transactions on pattern analysis and machine intelligence},
+  Year                     = {2005},
+  Number                   = {10},
+  Pages                    = {1615--1630},
+  Volume                   = {27},
+
+  Publisher                = {IEEE}
+}
+
+@InProceedings{Moulon2013,
+  Title                    = {Global fusion of relative motions for robust, accurate and scalable structure from motion},
+  Author                   = {Moulon, Pierre and Monasse, Pascal and Marlet, Renaud},
+  Booktitle                = {Proceedings of the IEEE International Conference on Computer Vision},
+  Year                     = {2013},
+  Pages                    = {3248--3255}
+}
+
+@InProceedings{moulon2013global,
+  Title                    = {Global fusion of relative motions for robust, accurate and scalable structure from motion},
+  Author                   = {Moulon, Pierre and Monasse, Pascal and Marlet, Renaud},
+  Booktitle                = {Proceedings of the IEEE International Conference on Computer Vision},
+  Year                     = {2013},
+  Pages                    = {3248--3255}
+}
+
+@Article{Mulla2013,
+  Title                    = {Twenty five years of remote sensing in precision agriculture: Key advances and remaining knowledge gaps},
+  Author                   = {Mulla, David J},
+  Journal                  = {Biosystems Engineering},
+  Year                     = {2013},
+  Number                   = {4},
+  Pages                    = {358--371},
+  Volume                   = {114},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{mulla2013twenty,
+  Title                    = {Twenty five years of remote sensing in precision agriculture: Key advances and remaining knowledge gaps},
+  Author                   = {Mulla, David J},
+  Journal                  = {Biosystems Engineering},
+  Year                     = {2013},
+  Number                   = {4},
+  Pages                    = {358--371},
+  Volume                   = {114},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{nister2004efficient,
+  Title                    = {An efficient solution to the five-point relative pose problem},
+  Author                   = {Nist{\'e}r, David},
+  Journal                  = {IEEE transactions on pattern analysis and machine intelligence},
+  Year                     = {2004},
+  Number                   = {6},
+  Pages                    = {756--770},
+  Volume                   = {26},
+
+  Publisher                = {IEEE}
+}
+
+@Book{nocedal2006numerical,
+  Title                    = {Numerical optimization},
+  Author                   = {Nocedal, Jorge and Wright, Stephen},
+  Publisher                = {Springer Science and Business Media},
+  Year                     = {2006}
+}
+
+@Article{nocerino2014accuracy,
+  Title                    = {Accuracy of typical photogrammetric networks in cultural heritage 3D modeling projects},
+  Author                   = {Nocerino, Erica and Menna, Fabio and Remondino, Fabio},
+  Journal                  = {The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  Year                     = {2014},
+  Number                   = {5},
+  Pages                    = {465},
+  Volume                   = {40},
+
+  Publisher                = {Copernicus GmbH}
+}
+
+@Article{nurminen2013performance,
+  Title                    = {Performance of dense digital surface models based on image matching in the estimation of plot-level forest variables},
+  Author                   = {Nurminen, Kimmo and Karjalainen, Mika and Yu, Xiaowei and Hyypp{\"a}, Juha and Honkavaara, Eija},
+  Journal                  = {ISPRS journal of photogrammetry and remote sensing},
+  Year                     = {2013},
+  Pages                    = {104--115},
+  Volume                   = {83},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{penman2014integrating,
+  Title                    = {Integrating remote-sensing and ground-based observations for estimation of emissions and removals of greenhouse gases in forests},
+  Author                   = {Penman, J and Baltuck, M and Green, C and Olofsson, P and Raison, J and Woodcock, C},
+  Year                     = {2014},
+
+  Publisher                = {Group on Earth Observations}
+}
+
+@Article{marc:11:apero,
+  Title                    = {Apero, an open source bundle adjustment software for automatic calibration and orientation of set of images},
+  Author                   = {Pierrot-Deseilligny, M, and Clery, I},
+  Year                     = {2011},
+  Number                   = {5},
+  Pages                    = {269--276},
+  Volume                   = {38},
+
+  Booktitle                = {ISPRS International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  Owner                    = {ewelina vel slonce},
+  Timestamp                = {2015.03.02}
+}
+
+@Article{pierrot2006multiresolution,
+  Title                    = {A multiresolution and optimization-based image matching approach: An application to surface reconstruction from SPOT5-HRS stereo imagery},
+  Author                   = {Pierrot-Deseilligny, Marc and Paparoditis, Nicolas},
+  Journal                  = {Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  Year                     = {2006},
+  Number                   = {1/W41},
+  Volume                   = {36}
+}
+
+@Article{poli2015radiometric,
+  Title                    = {Radiometric and geometric evaluation of GeoEye-1, WorldView-2 and Pl{\'e}iades-1A stereo images for 3D information extraction},
+  Author                   = {Poli, D and Remondino, F and Angiuli, E and Agugiaro, G},
+  Journal                  = {ISPRS Journal of Photogrammetry and Remote Sensing},
+  Year                     = {2015},
+  Pages                    = {35--47},
+  Volume                   = {100},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{pu2012comparative,
+  Title                    = {A comparative analysis of high spatial resolution IKONOS and WorldView-2 imagery for mapping urban tree species},
+  Author                   = {Pu, Ruiliang and Landry, Shawn},
+  Journal                  = {Remote Sensing of Environment},
+  Year                     = {2012},
+  Pages                    = {516--533},
+  Volume                   = {124},
+
+  Publisher                = {Elsevier}
+}
+
+@InProceedings{ranftl2012pushing,
+  Title                    = {Pushing the limits of stereo using variational stereo estimation},
+  Author                   = {Ranftl, Rene and Gehrig, Stefan and Pock, Thomas and Bischof, Horst},
+  Booktitle                = {Intelligent Vehicles Symposium (IV), 2012 IEEE},
+  Year                     = {2012},
+  Organization             = {IEEE},
+  Pages                    = {401--407}
+}
+
+@Article{raumonen2013fast,
+  Title                    = {Fast automatic precision tree models from terrestrial laser scanner data},
+  Author                   = {Raumonen, Pasi and Kaasalainen, Mikko and {\AA}kerblom, Markku and Kaasalainen, Sanna and Kaartinen, Harri and Vastaranta, Mikko and Holopainen, Markus and Disney, Mathias and Lewis, Philip},
+  Journal                  = {Remote Sensing},
+  Year                     = {2013},
+  Number                   = {2},
+  Pages                    = {491--520},
+  Volume                   = {5},
+
+  Publisher                = {Multidisciplinary Digital Publishing Institute}
+}
+
+@Article{remondino2014state,
+  Title                    = {State of the art in high density image matching},
+  Author                   = {Remondino, Fabio and Spera, Maria Grazia and Nocerino, Erica and Menna, Fabio and Nex, Francesco},
+  Journal                  = {The Photogrammetric Record},
+  Year                     = {2014},
+  Number                   = {146},
+  Pages                    = {144--166},
+  Volume                   = {29},
+
+  Publisher                = {Wiley Online Library}
+}
+
+@Article{ressl2016dense,
+  Title                    = {Dense Image Matching vs. Airborne Laser Scanning--Comparison of two methods for deriving terrain models},
+  Author                   = {Ressl, Camillo and Brockmann, Herbert and Mandlburger, Gottfried and Pfeifer, Norbert},
+  Journal                  = {Photogrammetrie-Fernerkundung-Geoinformation},
+  Year                     = {2016},
+  Number                   = {2},
+  Pages                    = {57--73},
+  Volume                   = {2016},
+
+  Publisher                = {E. Schweizerbart'sche Verlagsbuchhandlung}
+}
+
+@Article{rodriguez2014stem,
+  Title                    = {Stem mapping and estimating standing volume from stereoscopic hemispherical images},
+  Author                   = {Rodr{\'\i}guez-Garc{\'\i}a, Cristina and Montes, Fernando and Ruiz, Federico and Ca{\~n}ellas, Isabel and Pita, Pilar},
+  Journal                  = {European journal of forest research},
+  Year                     = {2014},
+  Number                   = {5},
+  Pages                    = {895--904},
+  Volume                   = {133},
+
+  Publisher                = {Springer}
+}
+
+@InProceedings{roy1998maximum,
+  Title                    = {A maximum-flow formulation of the n-camera stereo correspondence problem},
+  Author                   = {Roy, S{\'e}bastien and Cox, Ingemar J},
+  Booktitle                = {Computer Vision, 1998. Sixth International Conference on},
+  Year                     = {1998},
+  Organization             = {IEEE},
+  Pages                    = {492--499}
+}
+
+@Article{savinov2016semantic,
+  Title                    = {Semantic 3D Reconstruction with Continuous Regularization and Ray Potentials Using a Visibility Consistency Constraint},
+  Author                   = {Savinov, Nikolay and Haene, Christian and Ladicky, Lubor and Pollefeys, Marc},
+  Journal                  = {arXiv preprint arXiv:1604.02885},
+  Year                     = {2016}
+}
+
+@InProceedings{snavely2006photo,
+  Title                    = {Photo tourism: exploring photo collections in 3D},
+  Author                   = {Snavely, Noah and Seitz, Steven M and Szeliski, Richard},
+  Booktitle                = {ACM transactions on graphics (TOG)},
+  Year                     = {2006},
+  Number                   = {3},
+  Organization             = {ACM},
+  Pages                    = {835--846},
+  Volume                   = {25}
+}
+
+@Article{st2015characterizing,
+  Title                    = {Characterizing the Height Structure and Composition of a Boreal Forest Using an Individual Tree Crown Approach Applied to Photogrammetric Point Clouds},
+  Author                   = {St-Onge, Beno{\^\i}t and Audet, F{\'e}lix-Antoine and B{\'e}gin, Jean},
+  Journal                  = {Forests},
+  Year                     = {2015},
+  Number                   = {11},
+  Pages                    = {3899--3922},
+  Volume                   = {6},
+
+  Publisher                = {Multidisciplinary Digital Publishing Institute}
+}
+
+@Article{st2004measuring,
+  Title                    = {Measuring individual tree height using a combination of stereophotogrammetry and lidar},
+  Author                   = {St-Onge, Beno{\^\i}t and Jumelet, Julien and Cobello, Mario and V{\'e}ga, C{\'e}dric},
+  Journal                  = {Canadian Journal of Forest Research},
+  Year                     = {2004},
+  Number                   = {10},
+  Pages                    = {2122--2130},
+  Volume                   = {34},
+
+  Publisher                = {NRC Research Press}
+}
+
+@InProceedings{strecha2008benchmarking,
+  Title                    = {On benchmarking camera calibration and multi-view stereo for high resolution imagery},
+  Author                   = {Strecha, Christoph and von Hansen, Wolfgang and Van Gool, Luc and Fua, Pascal and Thoennessen, Ulrich},
+  Booktitle                = {Computer Vision and Pattern Recognition, 2008. CVPR 2008. IEEE Conference on},
+  Year                     = {2008},
+  Organization             = {Ieee},
+  Pages                    = {1--8}
+}
+
+@InProceedings{szegedy2015going,
+  Title                    = {Going deeper with convolutions},
+  Author                   = {Szegedy, Christian and Liu, Wei and Jia, Yangqing and Sermanet, Pierre and Reed, Scott and Anguelov, Dragomir and Erhan, Dumitru and Vanhoucke, Vincent and Rabinovich, Andrew},
+  Booktitle                = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  Year                     = {2015},
+  Pages                    = {1--9}
+}
+
+@Book{szeliski2010computer,
+  Title                    = {Computer vision: algorithms and applicationsff},
+  Author                   = {Szeliski, Richard},
+  Publisher                = {Springer Science and Business Media},
+  Year                     = {2010}
+}
+
+@InCollection{thenkabail2015optical,
+  Title                    = {Optical Remote Sensing of Tree and Stand Heights},
+  Author                   = {Thenkabail, Prasad S and Durrieu, Sylvie and V{\'e}ga, C{\'e}dric and Bouvier, Marc and Gosselin, Fr{\'e}d{\'e}ric and Renaud, Jean-Pierre and Saint-Andr{\'e}, Laurent},
+  Booktitle                = {Land Resources Monitoring, Modeling, and Mapping with Remote Sensing},
+  Publisher                = {CRC Press},
+  Year                     = {2015},
+  Pages                    = {449--485}
+}
+
+@Article{tola2010daisy,
+  Title                    = {Daisy: An efficient dense descriptor applied to wide-baseline stereo},
+  Author                   = {Tola, Engin and Lepetit, Vincent and Fua, Pascal},
+  Journal                  = {IEEE transactions on pattern analysis and machine intelligence},
+  Year                     = {2010},
+  Number                   = {5},
+  Pages                    = {815--830},
+  Volume                   = {32},
+
+  Publisher                = {IEEE}
+}
+
+@Article{toldo2015hierarchical,
+  Title                    = {Hierarchical structure-and-motion recovery from uncalibrated images},
+  Author                   = {Toldo, Roberto and Gherardi, Riccardo and Farenzena, Michela and Fusiello, Andrea},
+  Journal                  = {Computer Vision and Image Understanding},
+  Year                     = {2015},
+  Pages                    = {127--143},
+  Volume                   = {140},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{tournadre2015uav,
+  Title                    = {UAV linear photogrammetry},
+  Author                   = {Tournadre, V and Pierrot-Deseilligny, M and Faure, PH},
+  Journal                  = {The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  Year                     = {2015},
+  Number                   = {3},
+  Pages                    = {327},
+  Volume                   = {40},
+
+  Publisher                = {Copernicus GmbH}
+}
+
+@InProceedings{Triggs1999,
+  Title                    = {Bundle adjustment—a modern synthesis},
+  Author                   = {Triggs, Bill and McLauchlan, Philip F and Hartley, Richard I and Fitzgibbon, Andrew W},
+  Booktitle                = {International workshop on vision algorithms},
+  Year                     = {1999},
+  Organization             = {Springer},
+  Pages                    = {298--372}
+}
+
+@InProceedings{triggs1999bundle,
+  Title                    = {Bundle adjustment—a modern synthesis},
+  Author                   = {Triggs, Bill and McLauchlan, Philip F and Hartley, Richard I and Fitzgibbon, Andrew W},
+  Booktitle                = {International workshop on vision algorithms},
+  Year                     = {1999},
+  Organization             = {Springer},
+  Pages                    = {298--372}
+}
+
+@Article{trzcinski2015learning,
+  Title                    = {Learning image descriptors with boosting},
+  Author                   = {Trzcinski, Tomasz and Christoudias, Mario and Lepetit, Vincent},
+  Journal                  = {IEEE transactions on pattern analysis and machine intelligence},
+  Year                     = {2015},
+  Number                   = {3},
+  Pages                    = {597--610},
+  Volume                   = {37},
+
+  Publisher                = {IEEE}
+}
+
+@Article{vega2014ptrees,
+  Title                    = {PTrees: A point-based approach to forest tree extraction from lidar data},
+  Author                   = {V{\'e}ga, C{\'e}dric and Hamrouni, A and El Mokhtari, S and Morel, J and Bock, J and Renaud, J-P and Bouvier, M and Durrieu, Sylvie},
+  Journal                  = {International Journal of Applied Earth Observation and Geoinformation},
+  Year                     = {2014},
+  Pages                    = {98--108},
+  Volume                   = {33},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{vastaranta2016forest,
+  Title                    = {Forest stand age classification using time series of photogrammetrically derived digital surface models},
+  Author                   = {Vastaranta, Mikko and Niemi, Mikko and Wulder, Michael A and White, Joanne C and Nurminen, Kimmo and Litkey, Paula and Honkavaara, Eija and Holopainen, Markus and Hyypp{\"a}, Juha},
+  Journal                  = {Scandinavian Journal of Forest Research},
+  Year                     = {2016},
+  Number                   = {2},
+  Pages                    = {194--205},
+  Volume                   = {31},
+
+  Publisher                = {Taylor \& Francis}
+}
+
+@Article{vastaranta2013airborne,
+  Title                    = {Airborne laser scanning and digital stereo imagery measures of forest structure: Comparative results and implications to forest mapping and inventory update},
+  Author                   = {Vastaranta, Mikko and Wulder, Michael A and White, Joanne C and Pekkarinen, Anssi and Tuominen, Sakari and Ginzler, Christian and Kankare, Ville and Holopainen, Markus and Hyypp{\"a}, Juha and Hyypp{\"a}, Hannu},
+  Journal                  = {Canadian Journal of Remote Sensing},
+  Year                     = {2013},
+  Number                   = {5},
+  Pages                    = {382--395},
+  Volume                   = {39},
+
+  Publisher                = {Taylor \& Francis}
+}
+
+@InProceedings{vedaldi2010vlfeat,
+  Title                    = {VLFeat: An open and portable library of computer vision algorithms},
+  Author                   = {Vedaldi, Andrea and Fulkerson, Brian},
+  Booktitle                = {Proceedings of the 18th ACM international conference on Multimedia},
+  Year                     = {2010},
+  Organization             = {ACM},
+  Pages                    = {1469--1472}
+}
+
+@InProceedings{wegner2016cataloging,
+  Title                    = {Cataloging Public Objects Using Aerial and Street-Level Images-Urban Trees},
+  Author                   = {Wegner, Jan D and Branson, Steven and Hall, David and Schindler, Konrad and Perona, Pietro},
+  Booktitle                = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  Year                     = {2016},
+  Pages                    = {6014--6023}
+}
+
+@Article{White2013,
+  Title                    = {The utility of image-based point clouds for forest inventory: A comparison with airborne laser scanning},
+  Author                   = {White, Joanne C and Wulder, Michael A and Vastaranta, Mikko and Coops, Nicholas C and Pitt, Doug and Woods, Murray},
+  Journal                  = {Forests},
+  Year                     = {2013},
+  Number                   = {3},
+  Pages                    = {518--536},
+  Volume                   = {4},
+
+  Publisher                = {Multidisciplinary Digital Publishing Institute}
+}
+
+@Article{white2013utility,
+  Title                    = {The utility of image-based point clouds for forest inventory: A comparison with airborne laser scanning},
+  Author                   = {White, Joanne C and Wulder, Michael A and Vastaranta, Mikko and Coops, Nicholas C and Pitt, Doug and Woods, Murray},
+  Journal                  = {Forests},
+  Year                     = {2013},
+  Number                   = {3},
+  Pages                    = {518--536},
+  Volume                   = {4},
+
+  Publisher                = {Multidisciplinary Digital Publishing Institute}
+}
+
+@InProceedings{wu2013towards,
+  Title                    = {Towards linear-time incremental structure from motion},
+  Author                   = {Wu, Changchang},
+  Booktitle                = {2013 International Conference on 3D Vision-3DV 2013},
+  Year                     = {2013},
+  Organization             = {IEEE},
+  Pages                    = {127--134}
+}
+
+@InProceedings{zagoruyko2015learning,
+  Title                    = {Learning to compare image patches via convolutional neural networks},
+  Author                   = {Zagoruyko, Sergey and Komodakis, Nikos},
+  Booktitle                = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  Year                     = {2015},
+  Pages                    = {4353--4361}
+}
+
+@InProceedings{zbontar2015computing,
+  Title                    = {Computing the stereo matching cost with a convolutional neural network},
+  Author                   = {Zbontar, Jure and LeCun, Yann},
+  Booktitle                = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  Year                     = {2015},
+  Pages                    = {1592--1599}
+}
+
+@Article{zhang2006multi,
+  Title                    = {Multi-image matching for DSM generation from IKONOS imagery},
+  Author                   = {Zhang, Li and Gruen, Armin},
+  Journal                  = {ISPRS Journal of Photogrammetry and Remote Sensing},
+  Year                     = {2006},
+  Number                   = {3},
+  Pages                    = {195--211},
+  Volume                   = {60},
+
+  Publisher                = {Elsevier}
+}
+
+@Article{zhang2000flexible,
+  Title                    = {A flexible new technique for camera calibration},
+  Author                   = {Zhang, Zhengyou},
+  Journal                  = {IEEE Transactions on pattern analysis and machine intelligence},
+  Year                     = {2000},
+  Number                   = {11},
+  Pages                    = {1330--1334},
+  Volume                   = {22},
+
+  Publisher                = {IEEE}
+}
+
+@Manual{micmac:manual,
+  Title                    = {MicMac, Apero, Pastis and Other Beverages in a Nutshell},
+
+  Owner                    = {er},
+  Timestamp                = {2016.04.12},
+  Url                      = {https://github.com/micmacIGN/Documentation}
+}
+
